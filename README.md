@@ -113,7 +113,7 @@ rahid_macros_assets:
 Place this at the end of your layout (after all macro calls):
 
 ```twig
-{{ render_assets() }}
+{{ _render_assets() }}
 ```
 
 This will dynamically insert the CSS and JS associated with the macros used in the template.
