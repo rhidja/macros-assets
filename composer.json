@@ -1,0 +1,42 @@
+{
+    "name": "rahid/macros-assets",
+    "description": "Un bundle Symfony pour gérer les macros Twig liées aux assets.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rahid\\MacrosAssets\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rahid\\MacrosAssets\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramtane Hidja",
+            "email": "rhidja@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/http-kernel": "^7.3",
+        "symfony/dependency-injection": "^7.3",
+        "symfony/config": "^7.3",
+        "twig/twig": "^3.21"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^7.3",
+        "phpunit/phpunit": "^10.5",
+        "symfony/browser-kit": "^7.3",
+        "symfony/css-selector": "^7.3"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}
